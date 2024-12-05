@@ -13,6 +13,10 @@ double br1, br2, rezultat;
 
     switch(operator)
         {
+            case '+':
+            rezultat = br1 + br2;
+            printf("Rezultat: %.2lf\n", rezultat);
+            break;
         }
 return 0;
 }
