@@ -25,6 +25,14 @@ double br1, br2, rezultat;
             rezultat = br1 * br2;
             printf("Rezultat: %.2lf\n", rezultat);
             break;
+            case '/':
+            if (br2 != 0) {
+                rezultat = br1 / br2;
+                printf("Rezultat: %.2lf\n", rezultat);
+            } else {
+                printf("Greska: Deljenje nulom nije dozvoljeno.\n");
+            }
+            break;
         }
 return 0;
 }
