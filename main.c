@@ -33,6 +33,9 @@ double br1, br2, rezultat;
                 printf("Greska: Deljenje nulom nije dozvoljeno.\n");
             }
             break;
+            default:
+            printf("Nevalidan operator.\n");
+            break;
         }
 return 0;
 }
