@@ -10,6 +10,9 @@ double br1, br2, rezultat;
     
     printf("Unesite dva broja: ");
     scanf("%lf %lf", &br1, &br2);
-  
+
+    switch(operator)
+        {
+        }
 return 0;
 }
