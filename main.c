@@ -5,7 +5,7 @@ int main() {
 double br1, br2, rezultat;
 
     char operator;
-    printf("Unesite operaciju (+, -, *, /): ");
+    printf("Unesite operaciju (+, -, *, /, ^): ");
     scanf(" %c", &operator);
     
     printf("Unesite dva broja: ");
@@ -32,6 +32,10 @@ double br1, br2, rezultat;
             } else {
                 printf("Greska: Deljenje nulom nije dozvoljeno.\n");
             }
+            break;
+             case '^':
+            rezultat = pow(br1, 2); 
+            printf("Kvadrat broja %.2lf je: %.2lf\n", br1, rezultat);
             break;
             default:
             printf("Nevalidan operator.\n");
